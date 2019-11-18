@@ -24,11 +24,13 @@ body {
 
 .content {
   position: absolute;
-  left: 55%;
-  bottom: 8%;
-  transform: translateX(-50%);
   width: 100%;
   max-width: 50em;
+  text-align: left;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+  padding: 1em;
 }
 
 h2 {
@@ -36,11 +38,11 @@ h2 {
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   color: #fff;
-  margin: 0;
 }
 
 p {
-  margin: .2em;
+  padding-top: .75em;
+  margin: auto;
   font-size: 2rem;
   font-style: italic;
 }
