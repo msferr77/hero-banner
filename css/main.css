@@ -17,30 +17,30 @@ body {
 }
 
 .banner {
-  overflow: hidden;
-  max-height: 500px;
   position: relative;
-  margin: auto;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .content {
   position: absolute;
-  left: 50%;
-  bottom: 5%;
-  transform: translate(-55%, -5%);
+  left: 55%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  width: 100%;
   max-width: 50em;
-  margin: auto;
 }
 
-h1 {
+h2 {
   display: inline;
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   color: #fff;
+  margin: 0;
 }
 
 p {
-  margin: 0;
+  margin: .2em;
   font-size: 2rem;
   font-style: italic;
 }
